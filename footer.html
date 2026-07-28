@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice-Jest another WordPress Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .img1 {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 40px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .tqr {
+            margin-left: 50px;
+            padding: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            color: gray;
+            margin-top: 20px;
+        }
+
+        a:hover {
+            color: white;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .btt {
+            height: 50px;
+            width: 155px;
+            border-radius: 50px;
+            background-color: rgb(83, 83, 83);
+            border: none;
+            color: white;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btt:hover {
+            background-color: rgb(141, 108, 48);
+            transition: 0.5s;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-repeat: no-repeat;
+            background-size: contain;
+            font-family: sans-serif;
+        }
+
+        .fa-search {
+            font-size: 18px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+
+        .dd {
+            gap: 50px;
+        }
+
+        .dda {
+            font-size: 100px;
+            color: white;
+        }
+
+        .ga {
+            color: white;
+        }
+
+        .WADS {
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(128, 89, 89);
+            border: 0px solid transparent;
+            height: 50px;
+            width: 200px;
+            gap: 50px;
+        }
+
+        .Q {
+            margin-right: 50px;
+        }
+
+        .WADS:hover {
+            background-color: rgb(87, 75, 75);
+            transition: 0.5s;
+        }
+
+        .mn {
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(87, 75, 75);
+            border: 0px solid transparent;
+            height: 50px;
+            width: 200px;
+            gap: 50px;
+            margin-left: 50px;
+        }
+
+        .bio {
+            display: flex;
+            gap: 300px;
+            color: white;
+            align-items: center;
+            padding-top: 100px;
+            margin-top: 30px;
+        }
+
+        .slow {
+            background-image: url(./smiling-professor-smoking-a-pipe-and-reading-RM4E52Y@2x.jpg);
+            min-height: 120vh;
+            /* Fixed overlap issue */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: -100px;
+            padding-bottom: 30px;
+        }
+
+        .dada {
+            padding-left: 60px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .p {
+            color: black;
+            display: flex;
+            padding-top: 50px;
+        }
+
+        .ytr {
+            margin-left: 150px;
+            margin-top: 50px;
+        }
+
+        .art {
+            margin-top: 30px;
+        }
+
+        .aQw {
+            background-color: white;
+            padding-bottom: 10px;
+            display: flex;
+        }
+
+        .tyty {
+            margin-left: 150px;
+            margin-bottom: 70px;
+            padding-top: 70px;
+        }
+
+        .a {
+            margin-left: 50px;
+        }
+
+        .qpi {
+            margin-left: 100px;
+        }
+
+        .qpa {
+            margin-left: 100px;
+            padding-top: 70px;
+        }
+
+        .mzx {
+            margin-left: 50px;
+        }
+
+        .You {
+            margin-bottom: 70px;
+        }
+
+        .MV {
+            background-color: white;
+            padding-bottom: 150px;
+            display: flex;
+        }
+
+        .GJ {
+            margin-left: 150px;
+            margin-bottom: 70px;
+        }
+
+        .bzx {
+            margin-left: 50px;
+        }
+
+        .mvx {
+            margin-left: 50px;
+        }
+
+        .zaza {
+            margin-top: 50px;
+        }
+
+        .ott {
+            padding: 30px;
+            color: white;
+            margin-left: 130px;
+            display: flex;
+            gap: 100px;
+        }
+
+        .ba {
+            background-color: rgb(121, 121, 121);
+            width: 1200px;
+            border-radius: 10px;
+            margin-left: 80px;
+            display: flex;
+        }
+
+        .jgjg {
+            margin-top: 150px;
+            color: white;
+        }
+
+        .bja {
+            background-image: url(legal-practice-area-cover@2x.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 210vh;
+            background-size: cover;
+        }
+
+        .kjkj {
+            color: white;
+        }
+
+        .nbc {
+            color: white;
+        }
+
+
+        .gaga {
+            color: white;
+        }
+
+
+        .cxcx {
+            margin-left: 100px;
+        }
+
+
+        .ada {
+            color: white;
+        }
+
+        .display {
+            display: flex;
+            padding-bottom: 30px;
+        }
+
+        .BSA {
+            height: 50px;
+            width: 250px;
+            background-color: rgb(145, 43, 43);
+            border: 0px solid transparent;
+            border-radius: 5px;
+            color: white;
+            margin-left: 500px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+
+        .GAGA {
+            background-color: white;
+            color: black;
+            padding-bottom: 100px;
+            display: flex;
+            gap: 120px;
+            padding: 50px;
+        }
+
+        .haha {
+            margin-top: 50px;
+            display: flex;
+        }
+
+        .agae {
+            color: black;
+            display: flex;
+        }
+
+        .nbnb {
+            width: 400px;
+            margin-right: 20px;
+            background-color: white;
+            padding: 100px;
+            height: 500px;
+            border-radius: 5px;
+        }
+
+        .team {
+            display: flex;
+            background-color: white;
+            gap: 10px;
+            padding-top: 100px;
+        }
+
+        .color {
+            background-image: url(testimonial-person-1@2x.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            min-height: 100vh;
+            background-position: right;
+            background-color: rgb(58, 53, 53);
+            padding-bottom: 70px;
+        }
+
+        .adad {
+            color: orange;
+            margin-left: 100px;
+        }
+
+        .gfa {
+            color: white;
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        .gagaa {
+            color: white;
+        }
+
+        .hjh {
+            color: white;
+            font-size: 100px;
+        }
+
+        .dtdt {
+            color: white;
+            background-image: url(contact-cta-cover@2x.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+        }
+
+        .kqw {
+            margin-left: 50px;
+        }
+
+        .icon,
+        .iconh,
+        .iconp {
+            background-color: gray;
+            border-radius: 20px;
+            padding: 15px;
+        }
+
+        .gq {
+            background-color: white;
+            color: black;
+            width: 500px;
+            border-radius: 5px;
+            margin-left: 700px;
+            height: 300px;
+            padding: 50px;
+        }
+
+        .gqw {
+            gap: 100px;
+        }
+
+        .zczx {
+            background-color: rgb(143, 44, 44);
+            width: 500px;
+            height: 50px;
+            border: 0px solid transparent;
+            border-radius: 5px;
+            color: white;
+        }
+
+        .zczx:hover {
+            background-color: rgb(70, 59, 59);
+            transition: 0.5s;
+        }
+
+        .uq {
+            background-color: black;
+            color: white;
+        }
+
+        .twe {
+            display: flex;
+            gap: 100px;
+        }
+
+        /* Fixed footer horizontal lists to stack in a line layout */
+        .twe ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+        }
+
+        .hty {
+            margin-top: 30px;
+        }
+
+        .jqh {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .had {
+            margin-left: 50px;
+        }
+
+        .pi,
+        .pt {
+            background-color: rgb(90, 90, 90);
+            color: white;
+            padding: 10px;
+            width: 200px;
+            height: 50px;
+            border-radius: 5px;
+            border: 0px solid transparent;
+        }
+
+        .icontwo {
+            background-color: rgb(116, 116, 116);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .tre {
+            gap: 100px;
+        }
+
+        .iconthree {
+            background-color: rgb(116, 116, 116);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .iconfive {
+            background-color: rgb(116, 116, 116);
+            border-radius: 20px;
+            padding: 20px;
+        }
+
+        .tpr {
+            margin-left: 30px;
+        }
+
+        .uq {
+            background-color: #111111;
+            color: #ffffff;
+            padding-top: 60px;
+            font-family: sans-serif;
+        }
+
+        .twe {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 40px;
+            gap: 40px;
+        }
+
+        .twe>div {
+            flex: 1;
+        }
+
+        .twe h3 {
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #ffffff;
+            letter-spacing: 1px;
+        }
+
+        .twe p {
+            color: #b0b0b0;
+            line-height: 1.6;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .twe ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .twe ul li a {
+            color: #b0b0b0;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 0;
+            transition: color 0.3s ease;
+        }
+
+        .twe ul li a:hover {
+            color: #ffffff;
+        }
+
+        .tre {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .tre i {
+            background-color: #333333;
+            color: #ffffff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .tre i:hover {
+            background-color: rgb(141, 108, 48);
+        }
+
+        .pi,
+        .pt {
+            background-color: #222222;
+            color: #ffffff;
+            padding: 12px 20px;
+            width: 100%;
+            max-width: 220px;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #444444;
+            cursor: pointer;
+            margin-bottom: 12px;
+            text-align: left;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .pi:hover,
+        .pt:hover {
+            background-color: #333333;
+            border-color: #666666;
+        }
+
+        .jqh {
+            max-width: 1200px;
+            margin: 50px auto 0 auto;
+            padding: 30px 40px;
+            border-top: 1px solid #222222;
+            text-align: center;
+            color: #777777;
+            font-size: 13px;
+        }
+
+        .rqw {
+            font-size: 90px;
+            color: white;
+        }
+
+        .gka {
+            gap: 50px;
+        }
+
+        .twd {
+            width: 20px;
+        }
+
+        .mainon {
+            display: flex;
+            padding: 20px;
+            gap: 350px;
+            font-size: 20px;
+            background-color: #dddddd;
+            padding-top: 50px;
+        }
+
+        .maina {
+            margin-top: 30px;
+            font-size: 50px;
+            margin-left: 50px;
+        }
+
+        .maind {
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        .pa {
+            line-height: 35px;
+        }
+
+        .pl {
+            font-size: 27px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .agf {
+            font-size: 20px;
+            display: flex;
+        }
+
+        .main32 {
+            margin-left: 100px;
+        }
+
+        .iconv {
+            display: flex;
+            align-items: center;
+        }
+
+        .mfaw {
+            margin-left: 50px;
+        }
+
+        .nzc {
+            display: flex;
+            align-items: center;
+        }
+
+        .grt {
+            font-size: 20px;
+        }
+
+        .htr {
+            margin-left: 100px;
+            line-height: 30px;
+        }
+
+        .bc {
+            margin-left: 70px;
+            font-size: 30px;
+        }
+
+        .iconq {
+            font-size: 30px;
+        }
+
+        .tqe {
+            display: flex;
+        }
+
+        .pmz {
+            display: flex;
+            color: white;
+            background-color: rgb(82, 70, 70);
+            gap: 200px;
+            width: 1200px;
+            border-radius: 9px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 50px;
+        }
+
+        .pk {
+            font-size: 50px;
+        }
+
+        .bodym {
+            background-image: url(legal-practice-area-cover@2x.webp);
+            background-position: center;
+            background-size: cover;
+            min-height: 100vh;
+            background-repeat: no-repeat;
+        }
+
+        .gae {
+            color: white;
+            font-size: 50px;
+        }
+
+        .gat {
+            color: white;
+        }
+
+        .gpr {
+            display: flex;
+        }
+
+        .gpw {
+            color: white;
+        }
+
+        .jtq {
+            font-size: 20px;
+        }
+
+        .bodyp {
+            margin-left: 50px;
+        }
+
+        .bodyq {
+            gap: 100px;
+            display: flex;
+        }
+
+        .bodyw {
+            gap: 100px;
+            display: flex;
+        }
+
+        .gta {
+            background-color: rgb(90, 64, 64);
+            border-radius: 10px;
+            width: 300px;
+            height: 50px;
+            color: white;
+            border: 1px solid transparent;
+        }
+
+        .pla {
+            font-size: 50px;
+            margin-right: 20s0px;
+        }
+
+        .plaw {
+            display: flex;
+            gap: 150px;
+        }
+
+        .plak {
+            line-height: 30px;
+        }
+
+        .kjs {
+            display: flex;
+            gap: 200px;
+        }
+
+        .gha {
+            width: 400px;
+            height: 500px;
+            margin-left: 100px;
+        }
+
+        .jha {
+            background-image: url(testimonial-person-1@2x.png);
+            background-size: contain;
+            min-height: 100vh;
+            background-repeat: no-repeat;
+            color: white;
+            background-color: black;
+            font-size: 20px;
+        }
+
+        .nva {
+            margin-left: 50px;
+            line-height: 30px;
+        }
+
+        .bhg {
+            font-size: 50px;
+        }
+        .ght{
+            background-image: url(testimonial-person-1@2x.png);
+            background-size: contain;
+            min-height: 100vh;
+            background-repeat: no-repeat;
+            background-color: black;  
+        }
+        .gawe{
+            background-color: black;
+            color: white;
+            padding: 50px;
+            display: flex;
+            gap: 100px;
+            padding-top: 50px;
+        }
+        .tui{
+            margin-right: 50px;
+        }
+                .tup{
+           font-size: 40px;
+        }
+        .gam{
+            color: white;
+        }
+        .pyt{
+            font-size: 20px;
+        }
+        .buttonr{
+            padding: 10px;
+            color: white;
+            width:200px;
+            height: 40px;
+            background-color: rgb(46, 43, 43);
+            border: 0px solid transparent;
+            border-radius: 5px;
+        }
+        .hqw{
+            background-color: black;
+            color: white;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .gtaw{
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+        .gwt{
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header code -->
+    <header>
+        <div class="logo">
+            <img src="logo-light.svg" alt="logo" class="img1">
+        </div>
+        <nav>
+            <ul class="dd">
+                <li><a href="footer.html">Home</a></li>
+                <li><a href="page2.html">Services</a></li>
+                <li><a href="page3.html">About</a></li>
+                <li><a href="page4.html">News</a></li>
+                <li><a href="page5.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <a href="icon.html"><i class="fa fa-search" aria-hidden="true"><a href="icon.html"></a></i></a>
+            <button class="btt">+123 456 7890</button>
+        </div>
+    </header>
+    <hr class="twd">
+    <div class="slow">
+        <div class="tqr">
+            <div class="Q">
+                <br><br><br><br><br><br>
+                <h1 class="rqw">You Deserve <br> Fair Trial</h1>
+                <p class="ga">Get free legal advise from our experienced lawyers</p>
+                <br>
+                <div class="gka">
+                    <button class="WADS">FREE CONSULTATION</button>
+                    <button class="mn">LEARN MORE</button>
+                </div>
+                <div class="bio">
+                    <div><i class="fa fa-book icon" aria-hidden="true"></i>Book an appointment
+                    </div>
+                    <div><i class="fa fa-calendar iconh" aria-hidden="true"></i>Free cas evaluation</div>
+                    <div><i class="fa fa-credit-card iconp" aria-hidden="true"></i>Pay the bill online</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainon">
+        <div class="maina">
+            Legal advise and <br> other assistance
+        </div>
+        <div>
+            <div class="maind">
+                <p class="pa">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br> sed diam nonumy eirmod tempor
+                    invidunt
+                    ut labore et <br>dolore magna aliquyam erat, sed diam voluptua vero eos <br> et accusam et justo
+                    duo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="tqe">
+        <div class="grt">
+            <p class="bc">
+                <i class="fa fa-gavel iconq" aria-hidden="true"></i>
+                Get Your Legal Advise
+            </p>
+            <p class="htr">Nibh tortor id aliquet lectus proin nibh. Pretium quam vulputate <br> dignissim suspendisse
+                condimentum bibendum.</p>
+        </div>
+
+
+
+
+        <div class="grt">
+            <p class="bc">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                Work With Experts
+            </p>
+            <p class="htr">Diam maecenas ultricies mi eget mauris pharetra et ultrices <br> neque. Sed sed risus pretium
+                quam vulputate dignissim.</p>
+        </div>
+    </div>
+
+
+
+
+    <div class="tqe">
+        <div class="grt">
+            <p class="bc">
+                <i class="fa fa-gavel iconq" aria-hidden="true"></i>
+                Discounted Rates
+            </p>
+            <p class="htr">Facilisi morbi tempus iaculis urna id volutpat lacus laoreet non. <br> At urna condimentum
+                mattis pellentesque id nibh.</p>
+        </div>
+
+
+
+
+        <div class="grt">
+            <p class="bc">
+                <i class="fa fa-users" aria-hidden="true"></i>
+                Review Documents
+            </p>
+            <p class="htr">Congue quisque egestas diam in arcu cursus euismod. Semper <br> eget duis at tellus at urna
+                condimentum mattis.</p>
+        </div>
+    </div>
+    <center>
+        <div class="pmz">
+            <div>
+                <p class="pk">123K</p>
+                <p class="pz">Trusted Clients</p>
+            </div>
+            <div>
+                <p class="pk">98%</p>
+                <p class="pz">Successful Case</p>
+            </div>
+            <div>
+                <p class="pk">$123M</p>
+                <p class="pz">Money Case</p>
+            </div>
+            <div>
+                <p class="pk">200</p>
+                <p class="pz">Case Closed</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+    </center>
+    <div class="bodym">
+        <div class="bodyp">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <center>
+                <h1 class="gae">Legal Practice Areas</h1>
+                <p class="gat">Maecenas interdum lorem eleifend orci aliquam mollis. Aliquam non rhoncus magna
+                    Suspendisse
+                    aliquet <br> tincidunt enimut commodo elit feugiat aecenas nec enim.</p>
+            </center>
+            <div class="bodyq">
+                <div class="gpr">
+                    <center>
+                        <div class="gpw">
+                            <p class="jtq">Family Law</p>
+                            <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                        </div>
+                    </center>
+                </div>
+
+
+
+                <div class="gpr">
+                    <center>
+                        <div class="gpw">
+                            <p class="jtq">Immigration</p>
+                            <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="gpr">
+                    <center>
+                        <div class="gpw">
+                            <p class="jtq">Consumer Law</p>
+                            <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="bodyw">
+            <div class="gpr">
+                <center>
+                    <div class="gpw">
+                        <p class="jtq">Banking & Finance</p>
+                        <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                    </div>
+                </center>
+            </div>
+
+
+
+            <div class="gpr">
+                <center>
+                    <div class="gpw">
+                        <p class="jtq">Civil Law</p>
+                        <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="gpr">
+                <center>
+                    <div class="gpw">
+                        <p class="jtq">Insurance Law</p>
+                        <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+
+        <div class="bodyw">
+            <div class="gpr">
+                <center>
+                    <div class="gpw">
+                        <p class="jtq">Car Accident</p>
+                        <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                    </div>
+                </center>
+            </div>
+
+
+
+            <div class="gpr">
+                <center>
+                    <div class="gpw">
+                        <p class="jtq">Property Law</p>
+                        <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="gpr">
+                <center>
+                    <div class="gpw">
+                        <p class="jtq">Corporate Law</p>
+                        <p>Aenean non accumsan antacumsan sem tempus <br> porta nec sit amet est.</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <button class="gta">VIEW ALL PRACTICE AREAS</button>
+        </center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+
+    <div class="plaw">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="plaw">
+            <p class="pla">Meet our Lawyers</p>
+            <p class="plak">
+
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed <br> diam nonumy eirmod tempor invidunt ut
+                labore et dolore <br> magna aliquyam erat, sed diam voluptua.
+            </p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="kjs">
+        <img src="team-member-1@2x.jpg" alt="team 1" class="gha">
+        <img src="team-member-2@2x.jpg" alt="team 2" class="gha">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="color">
+                <p class="adad">
+                    <big class="gwt"><big><big><big><big><big><big>Testimonials</big></big></big></big></big></big></big>
+                    <br><br><br>
+                    <big><big><big><big><big>
+                        <span class="ada">Mauris imperdiet orci dapibus, commodo <br> libero nec, interdum tortor. Morbi in nibh <br> faucibus, iaculis lorem vitae, cursus velit. <br>Mauris in fringilla velit.</span>
+                    </big></big></big></big></big>
+                </p>
+                <big><big><big><big><p class="gfa">Jenny Doe, CEO Company Inc.</p></big></big></big></big>
+            </div>
+
+
+
+
+            <div class="jka">
+                <div class="dtdt">
+                    <div class="kqw">
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <big><big><big><h1 class="hjh">Get a Personal <br> Consultation</h1></big></big></big>
+                        <big><big><p>Office</p></big></big>
+                        <p>304 North Cardinal St. Dorchester Center, MA 02124</p>
+                        <big><big><p>Contact</p></big></big>
+                        <p>info@company.com <br> contact@company.com</p>
+                        <big><big><p>Open Hours</p></big></big>
+                        <p>Monday-Saturday 8 am – 6pm <br> Sunday 11am – 4pm</p>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="gawe">
+                <div class="tui">
+                    <h2 class="tup">JUSTICE</h2>
+                    <p>Egestas purus viverra accumsan in <br> nisl in metus dictum at tempor commodo sagittis <br> nisl rhoncus mattis rhoncus urna neque <br> viverra.</p>
+                </div>
+                <div>
+                    <p class="pyt">Overview</p>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Services</p>
+                    <p>Contact</p>
+                </div>
+                     <div>
+                    <p class="pyt">Information</p>
+                    <p>FAQ</p>
+                    <p>Site Maps</p>
+                    <p>Cookie Policy</p>
+                    <p>Contact Us</p>
+                </div>
+                <t/div class="tui">
+                    <h2>Head Office</h2>
+                    <p>304 North Cardinal St. <br> Dorchester Center, MA 02124</p>
+                    <button class="buttonr">(+123) 456 7890</button>
+                    <br>
+                    <br>
+                    <button class="buttonr">info@mymail.com</button>
+                </div>
+                 
+            </div>
+            <div class="gtaw">
+                <hr>
+                <center>
+                <p>Copyright © 2026 - WordPress Theme by CreativeThemes</p>
+                </center>
+            </div>
+</body>
+
+</html>
